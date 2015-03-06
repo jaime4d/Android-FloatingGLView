@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
             @Override
             public void onServiceConnected(ComponentName className,
                                            IBinder service) {
-                // We've bound to ConciergeService, cast the IBinder and get FloatingViewService instance
+                // We've bound to our service, cast the IBinder and get FloatingViewService instance
                 FloatingViewService.FloatingViewServiceBinder binder = (FloatingViewService.FloatingViewServiceBinder)service;
                 mFloatingViewService = binder.getService();
 

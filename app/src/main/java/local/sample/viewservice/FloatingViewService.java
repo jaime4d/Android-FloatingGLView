@@ -83,37 +83,7 @@ public class FloatingViewService extends Service implements View.OnTouchListener
         // return false since we are not handling the event
         return false;
     }
-    /*
-    @Override
-    public void setWindowState(WindowStateEnum state) {
 
-        mWindowLayoutParams = createLayoutParams(state);
-
-        if(state != WindowStateEnum.invisible) {
-            // maximized or minimized
-            if (mDialerFragmentAdded) {
-                mWindowManager.updateViewLayout(mFragmentLayout, mWindowLayoutParams);
-            } else {
-                mWindowManager.addView(mFragmentLayout, mWindowLayoutParams);
-                mDialerFragmentAdded = true;
-            }
-        } else {
-            // invisible
-            if(mDialerFragmentAdded) {
-                mWindowManager.removeView(mFragmentLayout);
-                mDialerFragmentAdded = false;
-            }
-        }
-
-        mWindowState = state;
-    }
-
-    @Override
-    public WindowStateEnum getWindowState() {
-
-        return mWindowState;
-    }
-    */
     @Override
     public void setPosition(Point loc) {
 
