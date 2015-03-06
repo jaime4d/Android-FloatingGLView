@@ -1,7 +1,7 @@
 # Android-FloatingGLView
 Android sample app demonstrating a transparent gl surface view floating on top of all device apps.
 
-![android-floatingglview](https://cloud.githubusercontent.com/assets/11356144/6536547/6fa2eca8-c41c-11e4-8210-ccaa3efc9a15.png)
+![android-floatingglview](https://cloud.githubusercontent.com/assets/11356144/6537331/c26c47a2-c423-11e4-90dd-73e2e27b149f.png)
 
 The basic jist is that you create a service, inflate a fragment and extract its content view, then add it to Window Manager.  We use a gesture adapter to move our floating view around.
 
