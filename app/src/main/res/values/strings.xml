@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FloatingGLView</string>
+    <string name="hello_world">Hello, World!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_floating_view">Floating View</string>
+    <string name="hello_blank_fragment">Hello, Floating GL World!</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
